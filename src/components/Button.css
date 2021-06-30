@@ -1,0 +1,28 @@
+.button {
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 1em;
+  background-color: #ed2186;
+  color: #fff;
+  border: 1px solid #af1e66;
+  outline: 0;
+  border-radius: 6px;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  background-color: #af1e66;
+}
+
+.button.outlined {
+  color: #ed2186;
+  background-color: transparent;
+}
+
+.button.outlined:hover {
+  background-color: #af1e6630;
+}
+
+.button.dotted {
+  border-style: dotted;
+}

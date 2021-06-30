@@ -1,0 +1,22 @@
+.accordion__item {
+  overflow: hidden;
+  transition: height 0.1s linear;
+  height: 0;
+  line-height: 1.3em;
+}
+
+.accordion__item__inner {
+  border: 1px solid #aaa;
+  border-top: 0;
+  padding: 8px;
+  font-family: sans-serif;
+}
+
+.accordion__item__title {
+  cursor: pointer;
+  background-color: #ccc;
+  border: 1px solid #aaa;
+  padding: 8px;
+  margin: -1px 0 0;
+  font-family: sans-serif;
+}
